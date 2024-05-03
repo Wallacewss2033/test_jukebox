@@ -12,13 +12,24 @@ services:
       - ./confs/servers:/etc/nginx/conf.d/
       - ./backend:/var/www/html
 
-  backend:
+  backend-jukebox:
     build: ./backend
-    container_name: backend
+    container_name: backend-jukebox
     networks:
       - net
     volumes:
       - ./backend:/var/www/html
+
+  frontend-jukebox: 
+    build: ./frontend
+    container_name: frontend-jukebox
+    ports:
+      - 8080:8080
+    networks:
+      - net
+    volumes:
+      - ./frontend:/app
+    command: ['npm', 'run', 'serve']
 
   mysql:
     image: mysql:5.7
