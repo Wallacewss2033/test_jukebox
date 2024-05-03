@@ -3,7 +3,7 @@
 
 ## Instalação com docker 
 
- - #### CASO NÃO QUEIRA USAR DOCKER [Clique aqui](https://github.com/Wallacewss2033/backend-jukebox)
+ - #### CASO NÃO QUEIRA USAR DOCKER [Clique aqui](https://github.com/Wallacewss2033/test_jukebox/blob/main/README-A.md)
 
 - Clone o projeto
 ```
