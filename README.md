@@ -51,7 +51,8 @@ php artisan migrate
 
     Coloque o id do seu projeto firebase
     
-    ![alt text](image.png)
+    ![image](https://github.com/Wallacewss2033/test_jukebox/assets/39920409/846211a3-239b-4fcb-84cb-a5cc9f863c0d)
+
 
 
 OBS: CASO HAJA ALGUM PROBLEMA DE PERMISSÃO NO PROJETO RODE:
@@ -71,4 +72,4 @@ chmod -R 775 ./storage
 
 Após rodar o comando de buildar os containers o frontend já estará pronto, apenas configure a .env 
 
-![alt text](image-1.png)
+![image](https://github.com/Wallacewss2033/test_jukebox/assets/39920409/0719bc2c-47bb-4672-932c-6d663d31d0e1)
